@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+
+  body {
+    min-height: 100vh;
+    background: url("img/Group\ 32.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color: #1743e3;
+  }
+
+  .home {
+    position: relative;
+    height: 100vh;
+    font-size: 20px;
+    margin: 10px 0 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 8% 0;
+    overflow: hidden;
+  }
+
+  .home-content {
+    background: transparent;
+  }
+  
+  .home-content h1 {
+  font-size: 56px;
+  margin: 10px 0 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.841);
+  }
+
